@@ -32,6 +32,7 @@ public class Lambda01 {
 	public static Date covert(String source) throws ParseException {
 		return df.get().parse(source);
 	}
+	
 	@Test
 	public void test1() {
 		int num = 0;
